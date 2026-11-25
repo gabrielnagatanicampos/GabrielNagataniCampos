@@ -9,7 +9,7 @@
 ## Sobre
 
 Estudo Engenharia de Software na UMC e gosto de transformar uma dúvida de negócio em dado, requisito e entrega.
-Levanto requisitos, modelo dados em SQL, escrevo critérios de aceite e conduzo o time com Scrum (Scrum Master no UniFind, Product Owner no Invest System).
+Levanto requisitos, modelo dados em SQL, escrevo critérios de aceite e atuei como Product Owner, em dupla, e como Scrum Master no UniFind.
 Boa parte do código foi construída com apoio de IA generativa; eu defino requisitos e reviso.
 
 <div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
@@ -21,7 +21,7 @@ Boa parte do código foi construída com apoio de IA generativa; eu defino requi
 <td width="50%" valign="top">
 
 **Construindo**
-- MARFIM, assistente virtual para clínicas odontológicas, em pré-lançamento
+- MARFIM, assistente virtual para clínicas odontológicas, em pré-lançamento (co-fundador, construí o sistema)
 - Data Warehouse de Vendas em SQL Server (camadas Bronze e Silver)
 - Invest System, evoluindo a cada sprint
 
@@ -60,14 +60,14 @@ Assistente virtual para clínicas odontológicas, com agenda, pacientes, convers
 </tr>
 <tr>
 <td width="46%" valign="top">
-<a href="https://github.com/gabrielnagatanicampos/invest-system-showcase"><img src="assets/invest-fluxo.png" alt="Fluxo do Invest System: do cadastro da carteira ao cálculo de quanto comprar ou vender" width="100%" /></a>
+<a href="https://github.com/gabrielnagatanicampos/invest-system-showcase"><img src="assets/app-dashboard.png" alt="Painel do Invest System com patrimônio total e alocação atual x meta" width="100%" /></a>
 </td>
 <td width="54%" valign="top">
 
 ### Invest System
 *Selecionado para a 4ª edição do UMC Summit, categoria Inovação.*
 
-Projeto próprio, iniciado antes da disciplina de Métodos Ágeis (UMC) e levado a ela para ampliar funcionalidades, ganhar visão de negócio, ir para a internet e praticar Scrum. Rebalanceamento de carteira com cotações reais. Atuei como Product Owner, em dupla. Suíte de testes automatizados gerada com apoio de IA e revisada por mim.
+Projeto próprio, iniciado antes da disciplina de Métodos Ágeis (UMC) e levado a ela para ampliar funcionalidades, ganhar visão de negócio, ir para a internet e praticar Scrum. Rebalanceamento de carteira com cotações reais, login por usuário, importação de CSV, assistente da carteira, banco online e alertas por e-mail, tudo no ar. Atuei como Product Owner, em dupla. Suíte de testes automatizados gerada com apoio de IA e revisada por mim.
 
 `Python` `Streamlit` `SQL` `Scrum`
 
@@ -106,7 +106,7 @@ SQL Server com arquitetura Medallion e rotinas de ETL para dados de ERP e CRM. C
 </tr>
 </table>
 
-Também: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário de jogos em Flutter feito na faculdade. UniFind: fui Scrum Master e escrevi requisitos e documentação técnica; aprovado para a revista científica na 3ª edição do UMC Summit.
+Também: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário de jogos em Flutter feito na faculdade. UniFind: fui Scrum Master e escrevi requisitos e documentação técnica; artigo publicado na Revista Científica da UMC, na 3ª edição do Summit.
 
 <div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
 
