@@ -22,7 +22,7 @@ Boa parte do código foi construída com apoio de IA generativa; eu defino requi
 
 **Construindo**
 - MARFIM, assistente virtual para clínicas odontológicas, em pré-lançamento (co-fundador, construí o sistema)
-- Data Warehouse de Vendas em SQL Server (camadas Bronze e Silver)
+- Data Warehouse de Vendas em SQL Server (projeto de estudo, seguindo o curso Data with Baraa; camadas Bronze e Silver)
 - Invest System, evoluindo a cada sprint
 
 </td>
@@ -96,7 +96,7 @@ Sprints semanais, backlog de histórias, Definition of Done, Kanban com limite d
 <td width="54%" valign="top">
 
 ### Data Warehouse de Vendas
-SQL Server com arquitetura Medallion e rotinas de ETL para dados de ERP e CRM. Camadas Bronze e Silver prontas.
+Projeto de estudo feito seguindo o curso gratuito SQL Data Warehouse Project, do canal Data with Baraa. Pratiquei arquitetura Medallion e ETL em SQL Server com dados de exemplo de ERP e CRM. Camadas Bronze e Silver prontas, Gold planejada.
 
 `SQL Server` `T-SQL` `ETL`
 
@@ -120,7 +120,6 @@ Também: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário 
 <img src="https://img.shields.io/badge/SQL_Server-0B1220?style=for-the-badge&logo=microsoftsqlserver&logoColor=3B82F6" alt="SQL Server" />
 <img src="https://img.shields.io/badge/MySQL-0B1220?style=for-the-badge&logo=mysql&logoColor=3B82F6" alt="MySQL" />
 <img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=for-the-badge&logo=postgresql&logoColor=3B82F6" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Power_BI-0B1220?style=for-the-badge&logo=powerbi&logoColor=3B82F6" alt="Power BI" />
 <img src="https://img.shields.io/badge/Excel-0B1220?style=for-the-badge&logo=microsoftexcel&logoColor=3B82F6" alt="Excel" />
 <img src="https://img.shields.io/badge/Pandas-0B1220?style=for-the-badge&logo=pandas&logoColor=3B82F6" alt="Pandas" />
 
