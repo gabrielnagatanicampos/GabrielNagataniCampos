@@ -43,7 +43,7 @@ Estudante de Engenharia de Software na UMC, com foco em isolamento de dados, seg
 
 </div>
 
-SaaS multiempresa com agenda própria, painel do operador, equipe com papéis, consentimento versionado e API por clínica. Uma falha de gravidade Alta foi encontrada em auditoria e corrigida. Tudo validado por simulação e testes, ainda sem clientes. O código é privado e a apresentação fica em [marfim-showcase](https://github.com/gabrielnagatanicampos/marfim-showcase).
+SaaS multiempresa com agenda própria, painel do operador, equipe com papéis, consentimento versionado e API por clínica. Uma falha de gravidade Alta foi encontrada em revisão de segurança interna e corrigida. Tudo validado por simulação e testes, ainda sem clientes. O código é privado e a apresentação fica em [marfim-showcase](https://github.com/gabrielnagatanicampos/marfim-showcase).
 
 <div align="center">
 
