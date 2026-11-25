@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Gabriel Nagatani Campos, Dados, SQL e Backend Python, Requisitos e Gestão Ágil" width="100%" />
+<img src="assets/banner.svg" alt="Gabriel Nagatani Campos, Estágio em tecnologia, Dados, SQL e Python, Requisitos e Gestão Ágil" width="100%" />
 
 </div>
 
@@ -29,8 +29,8 @@ Boa parte do código foi construída com apoio de IA generativa; eu defino requi
 <td width="50%" valign="top">
 
 **Buscando**
-- Estágio em dados, análise de requisitos ou gestão ágil
-- Time que me deixe praticar SQL e Scrum no dia a dia
+- Estágio em tecnologia (dados, desenvolvimento, requisitos, gestão ágil e outras áreas), com início imediato
+- Time em que eu possa aprender e praticar no dia a dia
 
 </td>
 </tr>
