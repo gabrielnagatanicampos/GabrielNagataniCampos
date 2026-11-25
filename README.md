@@ -51,7 +51,7 @@ SaaS multiempresa com agenda própria, painel do operador, equipe com papéis, c
 
 </div>
 
-Projeto de Métodos Ágeis na UMC, em dupla, onde atuei como Product Owner. Scrum com sprints semanais, Definition of Done e revisão por Pull Request. A defesa contra prompt injection tem várias camadas, e o chat com os provedores de LLM foi testado com cliente simulado. Apresentação em [invest-system-showcase](https://github.com/gabrielnagatanicampos/invest-system-showcase).
+Projeto próprio que ganhou outra proporção ao ser integrado à disciplina de Métodos Ágeis da UMC, em dupla, onde atuei como Product Owner. Isso trouxe atualizações, alertas por e-mail e a subida para uma VPS com auxílio do professor. Scrum com sprints semanais, Definition of Done e revisão por Pull Request. A defesa contra prompt injection tem várias camadas, e o chat com os provedores de LLM foi testado com cliente simulado. Apresentação em [invest-system-showcase](https://github.com/gabrielnagatanicampos/invest-system-showcase).
 
 <div align="center">
 
