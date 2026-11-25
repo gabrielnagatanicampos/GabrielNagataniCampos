@@ -82,7 +82,7 @@ Projeto próprio, iniciado antes da disciplina de Métodos Ágeis (UMC) e levado
 <td width="54%" valign="top">
 
 ### Gestão ágil na prática
-Sprints semanais, backlog de histórias, Definition of Done, Kanban com limite de trabalho em andamento e revisão por Pull Request.
+Sprints semanais, backlog de histórias, Definition of Done, Kanban com limite de trabalho em andamento e, como regra do time, Pull Request revisado por outro integrante.
 
 </td>
 </tr>
