@@ -1,47 +1,123 @@
-### Oi 👋, eu sou o Gabriel
+<div align="center">
 
-🚀 **Estudante de Engenharia de Software | Foco em Engenharia de Dados**  
-🇧🇷 Mogi das Cruzes, SP — Brasil
+<img src="assets/banner.svg" alt="Gabriel Nagatani Campos, Backend Python, Testes e segurança, IA" width="100%" />
 
-Estou construindo projetos voltados à Engenharia de Dados, trabalhando com Python, SQL, APIs e pipelines de ETL/ELT. Meu foco é evoluir na construção de soluções para coleta, transformação, organização e análise de dados.
+<br/>
 
-Também tenho interesse em dados aplicados ao mercado financeiro, área que exploro em projetos pessoais e complemento com a certificação CPA-20.
+**Escrevo backend em Python e só confio no que passa nos testes.**
+Estudante de Engenharia de Software na UMC, com foco em isolamento de dados, segurança e IA com limites claros.
 
-Também documento minha evolução ao longo da faculdade e compartilho os projetos que vou construindo pelo caminho.
+<img src="assets/divider.svg" alt="" width="100%" />
 
----
+</div>
 
-### 🌐 Onde me encontrar
+## Agora
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-gabriel--nagatani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-nagatani)
-[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://cut-bird-e14.notion.site/Portf-lio-Engenharia-de-Software-Dados-2b406a3beb3f83ef8fa081b71d877a3b)
-[![Email](https://img.shields.io/badge/EMAIL-gabriel.nagatani14-D14836?style=for-the-badge&logo=icloud&logoColor=white)](mailto:gabriel.nagatani14@icloud.com)
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+**Construindo**
+- MARFIM, SaaS de assistente virtual para clínicas odontológicas, em pré-lançamento
+- Testes e segurança como parte de cada entrega
+- Apresentações públicas dos projetos privados
 
-### 🧠 O que eu faço
+</td>
+<td width="50%" valign="top">
 
-- 🗃️ Construo pipelines e projetos de dados utilizando arquitetura Medallion e processos ETL/ELT
-- 🧱 Estudo e aplico modelagem dimensional para organização e análise de dados
-- 🐍 Desenvolvo aplicações em Python integradas a APIs e diferentes fontes de dados
-- 📊 Manipulo e transformo dados com SQL, Pandas e NumPy
-- 📈 Desenvolvo projetos envolvendo dados e mercado financeiro
+**Buscando**
+- Estágio em desenvolvimento backend, dados ou infraestrutura
+- Time que revise código por Pull Request e trate teste como parte do trabalho
 
----
+</td>
+</tr>
+</table>
 
-### 🛠️ Stack
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+## Projetos
 
----
+<div align="center">
 
-### 📌 Projetos em destaque
+<img src="assets/card-marfim.svg" alt="MARFIM: pré-lançamento, sem clientes. Cerca de 1.980 testes, 21 migrações, CI 6 de 6, isolamento por clínica com RLS" width="100%" />
 
-- 🗃️ **[DataWarehouse](https://github.com/gabrielnagatanicampos/DataWarehouse)** — Pipeline de dados com arquitetura Medallion, integração de dados de ERP e CRM e modelagem dimensional em SQL Server.
+</div>
 
-- 💰 **[invest-system](https://github.com/gabrielnagatanicampos/invest-system)** — Sistema de gestão de carteira com integração a dados do mercado financeiro, cotações e rebalanceamento automático.
+SaaS multiempresa com agenda própria, painel do operador, equipe com papéis, consentimento versionado e API por clínica. Uma falha de gravidade Alta foi encontrada em auditoria e corrigida. Tudo validado por simulação e testes, ainda sem clientes. O código é privado e a apresentação fica em [marfim-showcase](https://github.com/gabrielnagatanicampos/marfim-showcase).
+
+<div align="center">
+
+<img src="assets/card-invest.svg" alt="Invest System: em dupla, aprovado na 4ª edição do UMC Summit. 285 testes, 31 de 40 contornos bloqueados, 0 de 37 perguntas legítimas recusadas" width="100%" />
+
+</div>
+
+Projeto de Métodos Ágeis na UMC, em dupla, onde atuei como Product Owner. Scrum com sprints semanais, Definition of Done e revisão por Pull Request. A defesa contra prompt injection tem várias camadas, e o chat com os provedores de LLM foi testado com cliente simulado. Apresentação em [invest-system-showcase](https://github.com/gabrielnagatanicampos/invest-system-showcase).
+
+<div align="center">
+
+<img src="assets/card-dw.svg" alt="Data Warehouse de Vendas: camadas Bronze e Silver em SQL Server" width="100%" />
+
+</div>
+
+Repositório público com as camadas Bronze e Silver da arquitetura Medallion para dados de ERP e CRM. A camada Gold não foi feita. Código em [DataWarehouse](https://github.com/gabrielnagatanicampos/DataWarehouse).
+
+Também no GitHub: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário de jogos em Flutter feito na faculdade. Fui Scrum Master do UniFind, aprovado para a revista científica na 3ª edição do UMC Summit.
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
+
+## Como trabalho
+
+1. **Teste primeiro.** A regra de negócio entra junto com o teste. No MARFIM, o CI roda pytest, bandit, gitleaks e pip-audit a cada Pull Request.
+2. **Revisão por Pull Request.** Mudança passa por revisão e por checagens verdes antes de ser considerada pronta.
+3. **Segurança desde o desenho.** Isolamento por clínica no banco, trilha de auditoria e relatórios de segurança, com os achados corrigidos e os abertos documentados.
+4. **IA declarada.** Uso o Claude Code nos meus projetos, com critérios de aceite escritos antes, revisão do que ele produz e testes que provam o resultado.
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
+
+## Stack
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=3B82F6" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-0B1220?style=for-the-badge&logo=fastapi&logoColor=3B82F6" alt="FastAPI" />
+<img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=for-the-badge&logo=postgresql&logoColor=3B82F6" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/SQL_Server-0B1220?style=for-the-badge&logo=microsoftsqlserver&logoColor=3B82F6" alt="SQL Server" />
+<img src="https://img.shields.io/badge/Redis-0B1220?style=for-the-badge&logo=redis&logoColor=3B82F6" alt="Redis" />
+<br/>
+<img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=3B82F6" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0B1220?style=for-the-badge&logo=githubactions&logoColor=3B82F6" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/n8n-0B1220?style=for-the-badge&logo=n8n&logoColor=3B82F6" alt="n8n" />
+<img src="https://img.shields.io/badge/Streamlit-0B1220?style=for-the-badge&logo=streamlit&logoColor=3B82F6" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Pytest-0B1220?style=for-the-badge&logo=pytest&logoColor=3B82F6" alt="pytest" />
+<br/>
+<img src="https://img.shields.io/badge/Pandas-0B1220?style=for-the-badge&logo=pandas&logoColor=3B82F6" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-0B1220?style=for-the-badge&logo=numpy&logoColor=3B82F6" alt="NumPy" />
+<img src="https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=3B82F6" alt="Git" />
+<img src="https://img.shields.io/badge/Linux-0B1220?style=for-the-badge&logo=linux&logoColor=3B82F6" alt="Linux" />
+<img src="https://img.shields.io/badge/Scrum-0B1220?style=for-the-badge&logo=scrumalliance&logoColor=3B82F6" alt="Scrum" />
+
+</div>
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
+
+## Formação e certificações
+
+- **Engenharia de Software**, UMC, 2025 a 2028
+- **Técnico em Administração**, Etec São Sebastião, 2023 a 2024
+- CPA 20 (ANBIMA)
+- Fundamentos de Python para Análise de Dados, Data Science e ML
+- IA e Análise de Dados, Finance TechBoost (80h)
+- Curso do Banco do Brasil: estruturas de dados, SQL e NoSQL, Big Data e Python
+- Projetos de Sistemas de TI, Fundação Bradesco
+- Inglês B1
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
+
+## Contato
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/gabriel-nagatani"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" /></a>
+<a href="mailto:gabriel.nagatani14@icloud.com"><img src="https://img.shields.io/badge/E--mail-0B1220?style=for-the-badge&logo=icloud&logoColor=3B82F6" alt="E-mail" /></a>
+
+</div>
