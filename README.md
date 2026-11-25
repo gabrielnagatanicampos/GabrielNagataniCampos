@@ -1,15 +1,18 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Gabriel Nagatani Campos, Backend Python, Testes e segurança, IA" width="100%" />
-
-<br/>
-
-**Escrevo backend em Python e só confio no que passa nos testes.**
-Estudante de Engenharia de Software na UMC, com foco em isolamento de dados, segurança e IA com limites claros.
-
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="assets/banner.svg" alt="Gabriel Nagatani Campos, Dados, SQL e Backend Python, Requisitos e Gestão Ágil" width="100%" />
 
 </div>
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
+
+## Sobre
+
+Estudo Engenharia de Software na UMC e gosto de transformar uma dúvida de negócio em dado, requisito e entrega.
+Levanto requisitos, modelo dados em SQL, escrevo critérios de aceite e conduzo o time com Scrum (Scrum Master no UniFind, Product Owner no Invest System).
+Boa parte do código foi construída com apoio de IA generativa; eu defino requisitos e reviso.
+
+<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
 
 ## Agora
 
@@ -18,16 +21,16 @@ Estudante de Engenharia de Software na UMC, com foco em isolamento de dados, seg
 <td width="50%" valign="top">
 
 **Construindo**
-- MARFIM, SaaS de assistente virtual para clínicas odontológicas, em pré-lançamento
-- Testes e segurança como parte de cada entrega
-- Apresentações públicas dos projetos privados
+- MARFIM, assistente virtual para clínicas odontológicas, em pré-lançamento
+- Data Warehouse de Vendas em SQL Server (camadas Bronze e Silver)
+- Invest System, evoluindo a cada sprint
 
 </td>
 <td width="50%" valign="top">
 
 **Buscando**
-- Estágio em desenvolvimento backend, dados ou infraestrutura
-- Time que revise código por Pull Request e trate teste como parte do trabalho
+- Estágio em dados, análise de requisitos ou gestão ágil
+- Time que me deixe praticar SQL e Scrum no dia a dia
 
 </td>
 </tr>
@@ -35,66 +38,105 @@ Estudante de Engenharia de Software na UMC, com foco em isolamento de dados, seg
 
 <div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
 
-## Projetos
+## Projetos em destaque
 
-<div align="center">
+<table>
+<tr>
+<td width="46%" valign="top">
+<a href="https://github.com/gabrielnagatanicampos/marfim-showcase"><img src="assets/marfim-hoje.png" alt="Tela Hoje do MARFIM, com dados fictícios" width="100%" /></a>
+</td>
+<td width="54%" valign="top">
 
-<img src="assets/card-marfim.svg" alt="MARFIM: pré-lançamento, sem clientes. Cerca de 1.980 testes, 21 migrações, CI 6 de 6, isolamento por clínica com RLS" width="100%" />
+### MARFIM
+*Pré-lançamento, ainda sem clientes. Antes chamado Nexus.*
 
-</div>
+Assistente virtual para clínicas odontológicas, com agenda, pacientes, conversas e equipe. Cada clínica enxerga só os próprios dados. Validado por simulação e testes.
 
-SaaS multiempresa com agenda própria, painel do operador, equipe com papéis, consentimento versionado e API por clínica. Uma falha de gravidade Alta foi encontrada em revisão de segurança interna e corrigida. Tudo validado por simulação e testes, ainda sem clientes. O código é privado e a apresentação fica em [marfim-showcase](https://github.com/gabrielnagatanicampos/marfim-showcase).
+`Python` `FastAPI` `PostgreSQL` `n8n`
 
-<div align="center">
+[Ver apresentação](https://github.com/gabrielnagatanicampos/marfim-showcase)
 
-<img src="assets/card-invest.svg" alt="Invest System: em dupla, aprovado na 4ª edição do UMC Summit. 285 testes, 31 de 40 contornos bloqueados, 0 de 37 perguntas legítimas recusadas" width="100%" />
+</td>
+</tr>
+<tr>
+<td width="46%" valign="top">
+<a href="https://github.com/gabrielnagatanicampos/invest-system-showcase"><img src="assets/invest-fluxo.png" alt="Fluxo do Invest System: do cadastro da carteira ao cálculo de quanto comprar ou vender" width="100%" /></a>
+</td>
+<td width="54%" valign="top">
 
-</div>
+### Invest System
+*Selecionado para a 4ª edição do UMC Summit, categoria Inovação.*
 
-Projeto próprio que ganhou outra proporção ao ser integrado à disciplina de Métodos Ágeis da UMC, em dupla, onde atuei como Product Owner. Isso trouxe atualizações, alertas por e-mail e a subida para uma VPS com auxílio do professor. Scrum com sprints semanais, Definition of Done e revisão por Pull Request. A defesa contra prompt injection tem várias camadas, e o chat com os provedores de LLM foi testado com cliente simulado. Apresentação em [invest-system-showcase](https://github.com/gabrielnagatanicampos/invest-system-showcase).
+Projeto próprio, iniciado antes da disciplina de Métodos Ágeis (UMC) e levado a ela para ampliar funcionalidades, ganhar visão de negócio, ir para a internet e praticar Scrum. Rebalanceamento de carteira com cotações reais. Atuei como Product Owner, em dupla. Suíte de testes automatizados gerada com apoio de IA e revisada por mim.
 
-<div align="center">
+`Python` `Streamlit` `SQL` `Scrum`
 
-<img src="assets/card-dw.svg" alt="Data Warehouse de Vendas: camadas Bronze e Silver em SQL Server" width="100%" />
+[Ver apresentação](https://github.com/gabrielnagatanicampos/invest-system-showcase)
 
-</div>
+</td>
+</tr>
+<tr>
+<td width="46%" valign="top">
+<a href="https://github.com/gabrielnagatanicampos/invest-system-showcase"><img src="assets/invest-kanban.png" alt="Quadro Kanban do Invest System com as histórias de usuário" width="100%" /></a>
+</td>
+<td width="54%" valign="top">
 
-Repositório público com as camadas Bronze e Silver da arquitetura Medallion para dados de ERP e CRM. A camada Gold não foi feita. Código em [DataWarehouse](https://github.com/gabrielnagatanicampos/DataWarehouse).
+### Gestão ágil na prática
+Sprints semanais, backlog de histórias, Definition of Done, Kanban com limite de trabalho em andamento e revisão por Pull Request.
 
-Também no GitHub: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário de jogos em Flutter feito na faculdade. Fui Scrum Master do UniFind, aprovado para a revista científica na 3ª edição do UMC Summit.
+</td>
+</tr>
+<tr>
+<td width="46%" valign="top" align="center">
+<br/><br/>
+
+`Bronze` → `Silver`
+
+</td>
+<td width="54%" valign="top">
+
+### Data Warehouse de Vendas
+SQL Server com arquitetura Medallion e rotinas de ETL para dados de ERP e CRM. Camadas Bronze e Silver prontas.
+
+`SQL Server` `T-SQL` `ETL`
+
+[Ver código](https://github.com/gabrielnagatanicampos/DataWarehouse)
+
+</td>
+</tr>
+</table>
+
+Também: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd), diário de jogos em Flutter feito na faculdade. UniFind: fui Scrum Master e escrevi requisitos e documentação técnica; aprovado para a revista científica na 3ª edição do UMC Summit.
 
 <div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
 
-## Como trabalho
-
-1. **Teste primeiro.** A regra de negócio entra junto com o teste. No MARFIM, o CI roda pytest, bandit, gitleaks e pip-audit a cada Pull Request.
-2. **Revisão por Pull Request.** Mudança passa por revisão e por checagens verdes antes de ser considerada pronta.
-3. **Segurança desde o desenho.** Isolamento por clínica no banco, trilha de auditoria e relatórios de segurança, com os achados corrigidos e os abertos documentados.
-4. **IA declarada.** Uso o Claude Code nos meus projetos, com critérios de aceite escritos antes, revisão do que ele produz e testes que provam o resultado.
-
-<div align="center"><img src="assets/divider.svg" alt="" width="100%" /></div>
-
-## Stack
+## Habilidades
 
 <div align="center">
 
+**Dados**<br/>
+<img src="https://img.shields.io/badge/SQL-0B1220?style=for-the-badge&logo=postgresql&logoColor=3B82F6" alt="SQL" />
+<img src="https://img.shields.io/badge/T--SQL-0B1220?style=for-the-badge&logo=microsoftsqlserver&logoColor=3B82F6" alt="T-SQL" />
+<img src="https://img.shields.io/badge/SQL_Server-0B1220?style=for-the-badge&logo=microsoftsqlserver&logoColor=3B82F6" alt="SQL Server" />
+<img src="https://img.shields.io/badge/MySQL-0B1220?style=for-the-badge&logo=mysql&logoColor=3B82F6" alt="MySQL" />
+<img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=for-the-badge&logo=postgresql&logoColor=3B82F6" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Power_BI-0B1220?style=for-the-badge&logo=powerbi&logoColor=3B82F6" alt="Power BI" />
+<img src="https://img.shields.io/badge/Excel-0B1220?style=for-the-badge&logo=microsoftexcel&logoColor=3B82F6" alt="Excel" />
+<img src="https://img.shields.io/badge/Pandas-0B1220?style=for-the-badge&logo=pandas&logoColor=3B82F6" alt="Pandas" />
+
+**Requisitos e Gestão**<br/>
+<img src="https://img.shields.io/badge/Scrum-0B1220?style=for-the-badge&logo=scrumalliance&logoColor=3B82F6" alt="Scrum" />
+<img src="https://img.shields.io/badge/Kanban-0B1220?style=for-the-badge&logo=trello&logoColor=3B82F6" alt="Kanban" />
+<img src="https://img.shields.io/badge/Requisitos_funcionais_e_não_funcionais-0B1220?style=for-the-badge&logoColor=3B82F6" alt="Requisitos funcionais e não funcionais" />
+<img src="https://img.shields.io/badge/Documentação-0B1220?style=for-the-badge&logoColor=3B82F6" alt="Documentação" />
+<img src="https://img.shields.io/badge/Notion-0B1220?style=for-the-badge&logo=notion&logoColor=3B82F6" alt="Notion" />
+
+**Backend**<br/>
 <img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=3B82F6" alt="Python" />
 <img src="https://img.shields.io/badge/FastAPI-0B1220?style=for-the-badge&logo=fastapi&logoColor=3B82F6" alt="FastAPI" />
-<img src="https://img.shields.io/badge/PostgreSQL-0B1220?style=for-the-badge&logo=postgresql&logoColor=3B82F6" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/SQL_Server-0B1220?style=for-the-badge&logo=microsoftsqlserver&logoColor=3B82F6" alt="SQL Server" />
-<img src="https://img.shields.io/badge/Redis-0B1220?style=for-the-badge&logo=redis&logoColor=3B82F6" alt="Redis" />
-<br/>
-<img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=3B82F6" alt="Docker" />
-<img src="https://img.shields.io/badge/GitHub_Actions-0B1220?style=for-the-badge&logo=githubactions&logoColor=3B82F6" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/n8n-0B1220?style=for-the-badge&logo=n8n&logoColor=3B82F6" alt="n8n" />
 <img src="https://img.shields.io/badge/Streamlit-0B1220?style=for-the-badge&logo=streamlit&logoColor=3B82F6" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Pytest-0B1220?style=for-the-badge&logo=pytest&logoColor=3B82F6" alt="pytest" />
-<br/>
-<img src="https://img.shields.io/badge/Pandas-0B1220?style=for-the-badge&logo=pandas&logoColor=3B82F6" alt="Pandas" />
-<img src="https://img.shields.io/badge/NumPy-0B1220?style=for-the-badge&logo=numpy&logoColor=3B82F6" alt="NumPy" />
-<img src="https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=3B82F6" alt="Git" />
-<img src="https://img.shields.io/badge/Linux-0B1220?style=for-the-badge&logo=linux&logoColor=3B82F6" alt="Linux" />
-<img src="https://img.shields.io/badge/Scrum-0B1220?style=for-the-badge&logo=scrumalliance&logoColor=3B82F6" alt="Scrum" />
+<img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=3B82F6" alt="Docker" />
+<img src="https://img.shields.io/badge/n8n-0B1220?style=for-the-badge&logo=n8n&logoColor=3B82F6" alt="n8n" />
 
 </div>
 
@@ -119,5 +161,6 @@ Também no GitHub: [gameboxd](https://github.com/gabrielnagatanicampos/gameboxd)
 
 <a href="https://www.linkedin.com/in/gabriel-nagatani"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" /></a>
 <a href="mailto:gabriel.nagatani14@icloud.com"><img src="https://img.shields.io/badge/E--mail-0B1220?style=for-the-badge&logo=icloud&logoColor=3B82F6" alt="E-mail" /></a>
+<a href="https://gabrielnagatanicampos.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0B1220?style=for-the-badge&logo=githubpages&logoColor=3B82F6" alt="Portfólio" /></a>
 
 </div>

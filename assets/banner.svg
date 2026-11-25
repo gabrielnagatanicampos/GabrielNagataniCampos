@@ -1,51 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Gabriel Nagatani Campos, Backend Python, Testes e segurança, IA">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gabriel Nagatani Campos, Dados, SQL e Backend Python">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05080F"/><stop offset="0.6" stop-color="#0B1220"/><stop offset="1" stop-color="#0E1B3D"/>
+      <stop offset="0" stop-color="#05080F"/><stop offset="0.6" stop-color="#0B1220"/><stop offset="1" stop-color="#1E3A8A"/>
     </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E3A8A" stop-opacity="0"/><stop offset="0.5" stop-color="#3B82F6" stop-opacity="0.55"/><stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E3A8A"/><stop offset="1" stop-color="#3B82F6"/>
     </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E5EDFF"/><stop offset="1" stop-color="#93B8FF"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#1E3A8A" stroke-opacity="0.35" stroke-width="1"/>
-    </pattern>
-    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.6">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.35"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="c"><rect width="1200" height="300" rx="18"/></clipPath>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#3B82F6" fill-opacity="0.18"/></pattern>
   </defs>
-  <g clip-path="url(#c)">
-    <rect width="1200" height="300" fill="url(#bg)"/>
-    <rect width="1200" height="300" fill="url(#grid)"/>
-    <rect width="1200" height="300" fill="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="7s" repeatCount="indefinite"/>
-    </rect>
-    <g fill="none" stroke="url(#wave1)" stroke-width="2">
-      <path d="M-100 230 C 100 190, 250 270, 450 230 S 800 190, 1000 235 S 1250 250, 1300 220">
-        <animateTransform attributeName="transform" type="translate" values="0 0; -60 6; 0 0" dur="9s" repeatCount="indefinite"/>
-      </path>
-      <path d="M-100 252 C 120 220, 300 290, 520 252 S 860 215, 1060 255 S 1260 270, 1320 245" stroke-opacity="0.6">
-        <animateTransform attributeName="transform" type="translate" values="0 0; 50 -5; 0 0" dur="11s" repeatCount="indefinite"/>
-      </path>
-      <path d="M-100 272 C 150 245, 330 300, 560 272 S 900 240, 1100 275 S 1280 285, 1340 265" stroke-opacity="0.35">
-        <animateTransform attributeName="transform" type="translate" values="0 0; -40 4; 0 0" dur="13s" repeatCount="indefinite"/>
-      </path>
-    </g>
-    <g fill="#3B82F6">
-      <circle cx="1010" cy="70" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="1090" cy="120" r="2.5"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="1140" cy="60" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="940" cy="130" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="3.5s" repeatCount="indefinite"/></circle>
-    </g>
-    <rect x="70" y="78" width="6" height="104" rx="3" fill="#3B82F6">
-      <animate attributeName="height" values="20;104" dur="1.2s" fill="freeze"/>
-    </rect>
-    <text x="100" y="125" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#E5EDFF">Gabriel Nagatani Campos<animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/></text>
-    <text x="102" y="172" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#3B82F6">Backend Python  |  Testes e segurança  |  IA<animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/></text>
-    <text x="102" y="212" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#7F96C9">Engenharia de Software na UMC  ·  Mogi das Cruzes, SP</text>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <!-- grafico decorativo -->
+  <g transform="translate(860,70)" opacity="0.95">
+    <rect x="0" y="120" width="34" height="60" rx="5" fill="#1E3A8A"/>
+    <rect x="52" y="90" width="34" height="90" rx="5" fill="#2556C4"/>
+    <rect x="104" y="55" width="34" height="125" rx="5" fill="#3B82F6"/>
+    <rect x="156" y="20" width="34" height="160" rx="5" fill="#60A5FA"/>
+    <rect x="208" y="75" width="34" height="105" rx="5" fill="#3B82F6"/>
+    <polyline points="17,110 69,78 121,48 173,12 225,62" fill="none" stroke="#E5EDFF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#E5EDFF"><circle cx="17" cy="110" r="5"/><circle cx="69" cy="78" r="5"/><circle cx="121" cy="48" r="5"/><circle cx="173" cy="12" r="5"/><circle cx="225" cy="62" r="5"/></g>
+    <line x1="-10" y1="184" x2="260" y2="184" stroke="#3B82F6" stroke-opacity="0.5"/>
   </g>
-  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#1E3A8A" stroke-width="2"/>
+  <rect x="70" y="62" width="64" height="6" rx="3" fill="url(#bar)"/>
+  <text x="70" y="136" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#E5EDFF">Gabriel Nagatani Campos</text>
+  <text x="70" y="188" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#60A5FA">Dados, SQL e Backend Python | Requisitos e Gestão Ágil</text>
+  <text x="70" y="236" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#C7D6F5">Engenharia de Software na UMC, Mogi das Cruzes SP | Buscando estágio</text>
+  <rect x="0" y="312" width="1200" height="8" fill="url(#bar)"/>
 </svg>
